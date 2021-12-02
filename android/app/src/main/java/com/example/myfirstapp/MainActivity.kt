@@ -12,12 +12,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main);
 
         val btnGoToRNPage = findViewById<Button>(R.id.simpleButton)
-//        val editTxt = findViewById<EditText>(R.id.textView)
         btnGoToRNPage.setOnClickListener {
-            // Do some work here
             startRNPage();
         }
-
     }
 
     private fun startRNPage() {
